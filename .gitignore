@@ -7,3 +7,4 @@ terraform.tfstate.backup
 # Ignorar archivos sensibles o temporales
 *.bak
 *.backup
+.terraform/
