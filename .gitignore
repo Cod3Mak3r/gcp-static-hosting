@@ -1,2 +1,9 @@
-.terraform
-.git
+# Ignorar archivos y carpetas generados por Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.lock.hcl
+
+# Ignorar archivos sensibles o temporales
+*.bak
+*.backup
